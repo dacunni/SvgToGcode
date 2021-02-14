@@ -24,4 +24,4 @@ class Plotter(Gcode):
         # Lift tool
         if not self._pen_down:
             self._pen_down = True
-            return f"G1 Z{-self._depth};"
+            return f"G1 Z{0};"
